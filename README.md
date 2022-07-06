@@ -143,12 +143,4 @@ Open QMK Toolbox and locate The .hex file you compiled before or use ready flash
 
 Press the button twice on the back of the PCB than hit flash 
 
-## Enable analog potentiometer :
-
-The analog potentiometer outputs a midi signal which can be recognized by any software reads midi input, but this feature is not enabled by default, to enable it, edit config.h and uncomment the code below:
-
-```
-#define POT_ENABLE
-```
-
 
