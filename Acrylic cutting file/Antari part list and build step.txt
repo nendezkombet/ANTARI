@@ -1,0 +1,57 @@
+Macropad purpose :
+
+1. 8x WS2812B RGB LEDs ( optional )
+2. 8x SMD 0603 100nF capacitors or bigger capacitor 0805 will do but little bit tricky for soldering ( this part just for prevent noise/flicker )
+3. 12-16x Cherry MX style switch or kailh low provile V2 switch 
+4. 1x EC11 rotary encoder ( optional )
+5. 4x 8mm M2 "MALE TO FEMALE" brass standoff
+6. 4x 8mm M2 "FEMALE TO FEMALE" brass standoff
+7. 8x 5-6mm height M2 screw
+8. 1x Arduino Promicro 32u4 5v
+9. 1x 220ohm or 330ohm resistor for RGB data line
+10. 1x micro switch for reset button
+11. 1x 128x32 oled LCD module ( optional )
+12. 16x diode 1n4148m or SMD diode 1n4148w SOD123 will do ( labeled T4 )
+13. 1x Passive buzzer 12mm ( optional )
+
+
+ANTARI USED PIN LIST :
+
+COL pin list (5, 8, 7, 6 )
+ROW pin list (15, 10, 16, 14 )
+
+1. Buzzer (9) 
+2. RGB LEDs (A3) 
+3. i2c (2, 3 ) 
+4. Analog potentiometer (4)
+5. Encoder (A0, A1)
+
+
+
+
+ANTARI BUILD STEP :
+
+Note : 
+// Using solder flux very recomended !!!
+// Prepare solder sucker if you make mistake
+// Clip the leg of the component if it's to long
+// Don't skip the build step
+
+1. Solder 8 RGB led L1-L8 
+2. Solder Capacitor C1-C8 
+3. Solder resistor 220ohm/330ohm on R1 solder hole/pad ( for rgb leds data line )
+4. Solder the encoder,reset switch,buzzer and oled lcd
+5. Solder arduino pin header ( just pin header, for arduino do it in the last step )
+6. Attach all top plates with 10mm M2 "MALE TO FEMALE" brass standoff
+7. Lock with 10mm M2 "FEMALE TO FEMALE" brass standoff in every corner
+8. Attach the switch buttons and tiddy up
+9. Solder the switch 
+10.Solder arduino to pin header
+11.Attach and screw all bottom plate on to PCB 
+13.Ready for firmware flashing
+
+Other component like power slide switch , battery socket, trs female socket and battery just free to solder without follow the build step.
+For midi connector cable wiring you can search on internet and make sure your wiring match with midi out on the PCB ex. TX-TX, VCC-VCC, and GND-GND
+
+if you have any question and find some bugs please contact me @synthvestigator.gmail or comment in my youtube video for this project @synthvestigator
+
