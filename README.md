@@ -69,7 +69,7 @@ Because every people have their specific keymap setting, i decided setting up th
 
 Every key in the lightroom keymap has 3 different midi cc's number, you can access every cc's with tapping the key 1-3 times. Activated cc's will displayed in the oled LCD display. You you can visit my youtube [video](https://www.youtube.com/watch?v=S6qfb3bq990&t=147s&ab_channel=Synthvestigator) for future detail.
 
-For this specific keymap i doesn't write the code by myself, i just adapted from other keyboard maintainer. Thank's to [luantty2](https://github.com/luantty2/pheromone_keyboard) for his wonderful work.
+For this specific lightroom keymap doesn't works with vial it is mean fixed keymap, just flash with flashing file provided.
 
 
 The pictures below showed first layer on the left and second layer on the right.
